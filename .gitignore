@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+.env
+
+# Dataset & large files
+data/
+*.zip
+*.h5
+*.keras
+
+# Model weights (tracked separately if needed)
+models/*.h5
+models/*.keras
+
+# Outputs (plots, reports)
+outputs/
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab
+*.ipynb_checkpoints
