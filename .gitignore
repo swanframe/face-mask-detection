@@ -18,8 +18,7 @@ data/
 models/*.h5
 models/*.keras
 
-# Outputs (plots, reports)
-outputs/
+# Outputs (plots, reports) — tracked selectively
 
 # Kaggle credentials
 .kaggle/
